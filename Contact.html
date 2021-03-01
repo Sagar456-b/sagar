@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles1.css">
+    <script src="https://kit.fontawesome.com/424c271c6d.js" crossorigin="anonymous" SameSite=strict ></script>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="top-header">
+        <div class="detail">
+            <ul>
+                <li><i class="fas fa-phone-square-alt"></i>+9779816417311</li>
+                <li><i class="far fa-envelope"></i>ivox363@gmail.com</li>
+                <li><i class="fas fa-map-marker-alt"></i>Bardaghat-4, Bardaghat</li>
+            </ul>
+        </div>
+      
+        <div class="social-icon">
+            <a href="https://www.facebook.com/nepoleanboysagar.magar" class="fab fa-facebook-square" style="color:#00acee;font-size:1vw;;" target="_blank"></a>
+            <a href="#" class="fab fa-twitter" style="color:#00acee;font-size:1vw;" target="_blank"></a>
+            <a href="https://www.instagram.com/sagarkauchamagar/" class="fab fa-instagram" style="color: #c32aa3;font-size:1vw;" target="_blank"></a>
+        </div>
+    </div>
+    <div class="navigation">
+        
+        <div class="logo">
+            <img src="/img/logo1.png" class="logo1" style="border-radius: 400%;">
+        </div>
+        <div class="navbar">
+            <ul>
+        <li class="nav"><a href="index.html" >Home</a></li>
+        <li class="nav"><a href="menu.html" > Menu</a></li>
+        <li class="nav"><a href="Service.html" >Service</a></li>
+        <li class="nav"><a href="Contact.html" >Contact</a></li>
+    </ul>
+    </div>
+    </div>
+    <div class="contact-page">
+        <div class="cont"><h2>Order your food!<br>Get Discont.</h2><p>+9779816417311</p> <a class="btn" href="#Connect">Connect With Us</a></div>
+    <div class="form-page">
+        <h1 id="Connect">Connect With Us</h1>
+      <div class="wrapper">
+          <h2>Email Us</h2>
+        <form>
+            <div class="textbox">
+                <input type="text" placeholder="Username" name="">
+                </div>
+                <div class="textbox">
+                    <input type="email" placeholder="Email" name="">
+                    </div>
+                    <div class="textbox">
+                        <input type="text" placeholder="Phone Number" name="">
+                        </div>
+                        <div class="textbox">
+                            <textarea name="Message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                        </div>
+                        <div class="btm" >
+                            <input class="btn-1" type="submit" value="Submit">
+                        </div>
+                    
+
+        </form>
+                  </div>
+        </div>    
+    </div>
+    <script>
+        const  currentLocation= location.href;
+const menuList = document.querySelectorAll('a');
+const menuLength = menuList.length;
+for ( let i=0; i < menuLength; i++){
+  if(menuList[i].href === currentLocation){
+      menuList[i].className = "active"
+  }}
+    </script>
+</body>
+</html>

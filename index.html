@@ -1,0 +1,126 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/css/styles.css">
+        <script src="https://kit.fontawesome.com/424c271c6d.js" crossorigin="anonymous" SameSite="lax" ></script>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+       
+      
+        <title>Saifno</title>
+    </head>
+    <body>
+        <div class="top-header">
+            <div class="detail">
+                <ul>
+                    <li><i class="fas fa-phone-square-alt"></i> +9779816417311 </li>
+                    <li><i class="far fa-envelope"></i> ivox363@gmail.com</li>
+                   <li id=time><i class=""></i></li>
+                </ul>
+            </div>
+            <div class="social-icon">
+                <a href="https://www.facebook.com/nepoleanboysagar.magar" class="fab fa-facebook-square" style="color:#00acee;font-size:1vw;;" target="_blank"></a>
+                <a href="#" class="fab fa-twitter" style="color:#00acee;font-size:1vw;" target="_blank"></a>
+                <a href="https://www.instagram.com/sagarkauchamagar/" class="fab fa-instagram" style="color: #c32aa3;font-size:1vw;" target="_blank"></a>
+            </div>
+        </div>
+        <div class="navigation">
+            <div class="logo">
+                <img src="/img/logo1.png" class="logo1">
+            </div>
+            <div id="navbar">
+                <ul>
+            <li class="nav"><a href="index.html" >Home</a></li>
+            <li class="nav"><a href="menu.html" > Menu</a>
+            <!--<div class="dropdown-content">
+                <ul>
+
+               
+                   <li><a href="#">Snacks</a></li>
+                   <li><a href="#">Meals</a></li>
+                   <li><a href="#">Meals</a></li>
+                   <li><a href="#">Meals</a></li>
+                   <li><a href="#">Meals</a></li>
+                   <li><a href="#">Meals</a></li>
+                   <li><a href="#">Meals</a></li>
+                   <li><a href="#">Meals</a></li>
+                   <li><a href="#">Meals</a></li>
+                   <li><a href="#">Meals</a></li></ul>
+               </div>//---> 
+           </li>
+            <li class="nav"><a href="Service.html" >Service</a></li>
+            <li class="nav"><a href="Contact.html ">Contact</a></li>
+            </ul>
+           
+        </div>
+
+        </div>
+        
+    <div class="page1">
+        <div class="slider">
+            <h1>WELCOME TO THE DOWNTOWN!</h1>
+        </div>
+        <div class="pg" >
+            <h1> The Downtown Restaurant </h1>
+            <p>The Downtown is Bardaghat’s first and only platform that connects home chefs with customers all over Bardaghat. The chefs who use Foodmario’s services have been thoroughly vetted by our exacting team for hygiene, quality, taste and consistency. Ordering healthy, home-cooked fare from Foodmario chefs is as easy as scrolling through our app, clicking on the fare of your choice and proceeding to check out.<br>   As of early 2019, we have connected hundreds of home chefs with customers and delivered more than 100,000 orders. And by the end of 2019, we hope to work with more than 100 home chefs. We also envision replicating the Foodmario model in major cities across Nepal & other countries.</p>
+            <a class="pg-btn" href="#Special">Try Our Special</a>  
+        </div>
+    </div>
+        <div class="box">
+            <h1 id="Special">Our Special</h1>
+        <div class="b1"><div class="img"><img src="/img/chowmein.jpg"></div><div class="name"><p>Chowmein: <b>Rs 100</b> </p><a type="button" href=#>Order</a></div></div>
+        <div class="b1"><div class="img"><img src="/img/momo.jpg" ></div><div class="name"><p>Momo: <b>Rs 200</b></p><a type="button" href=#>Order</a></div></div>
+        <div class="b1"><div class="img"><img src="/img/pizza.jpg" ></div><div class="name"><p>Pizza: <b>Rs 350</b></p><a type="button" href=#>Order</a></div></div>
+        </div>
+        <div class="container">
+            <h1>Our services</h1>
+        <div class="grid-container">
+            <div class="grid-item Online">
+               <div class="S1"><img src="/img/kindpng_222264.png" style="border-radius: 50%;"></div>
+               <div> <h3>food Delievery</h3></div>
+              
+            </div>
+            <div class="grid-item delivey">
+                <h3>Online Payment</h3>
+            </div>
+        
+            <div class="grid-item Booking">
+                <h3>Room and Table Booking</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quidem tempore unde quam sit, odio molestias doloribus at nulla maxime delectus ad! Rem eius, velit perferendis ipsum qui tempore repellat!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quidem tempore unde quam sit, odio molestias doloribus at nulla maxime delectus ad! Rem eius, velit perferendis ipsum qui tempore repellat!</p>
+            </div>
+        </div></div>
+        
+        <div class="footer">
+            <P>© 2020 The Downtown Resturant</br>Saifno Pvt. ltd</P>
+        </div>
+        <script src="myScript.js" ></script>
+   
+    <script>
+        /*var header= document.getElementById("navbar");
+        var navi = header.getElementsByClassName("nav");
+        for ( var i=0; i<navi.length; i++){
+navi[i].addEventListener("click", function(){
+ var  current =document.getElementsByClassName("active");
+ current[0].className = current[0].className.replace("active","");
+ this.className += "active";});
+        }*/
+        // const  currentLocation= location.href;
+        // const menuList = document.querySelectorAll('a');
+        // const menuLength = menuList.length;
+        // for ( let i=0; i < menuLength; i++){
+        //   if(menuList[i].href === currentLocation){
+        //       menuList[i].className = "active"
+        //   }
+        // }
+        function  displaytime(){
+            h = new Date();
+            t= h.getHOurs();
+            document.getElementById("time").innerHTML= +h;
+        }
+        setInterval(displaytime,1000);
+
+    </script>
+     </body>
+
+    </html>

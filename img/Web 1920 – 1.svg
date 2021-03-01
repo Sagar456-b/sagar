@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-Web_1920_1);
+      }
+
+      .cls-3 {
+        isolation: isolate;
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        fill: #e84a64;
+        stroke: #b56a76;
+        stroke-linejoin: round;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        filter: url(#Path_1);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" x="4" width="1920.272" height="357.407"/>
+    </clipPath>
+    <filter id="Path_1" x="-4.105" y="722.494" width="2233.272" height="994.407" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" class="cls-2">
+    <rect class="cls-5" width="1920" height="1080"/>
+    <g id="Scroll_Group_1" data-name="Scroll Group 1" class="cls-3" transform="translate(-4.105 722.494)">
+      <g class="cls-6" transform="matrix(1, 0, 0, 1, 4.11, -722.49)">
+        <path id="Path_1-2" data-name="Path 1" class="cls-4" d="M394,805.992c9.752-2.1,4.849-52.271,14.381-54.241,439.921-90.939,1024.481-80.5,1359.238-146.286,369.989-72.713,500.864-208.259,542.476-201.143,5.959,1.017,27.411,55.445,29.162,61.014,13.391,42.588,263.409,31.689,263.409,31.689l-464.84,876.725" transform="translate(-394 327.92)"/>
+      </g>
+    </g>
+  </g>
+</svg>
